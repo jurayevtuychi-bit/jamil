@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Bosh kiyim (mortarboard) usti -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,34L84,48L54,62L24,48Z" />
+    <!-- Bosh kiyim asosi -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,57L38,68Q54,78 70,68L70,57L54,64Z" />
+    <!-- Popuk ipi -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M80,50L82,50L82,65L80,65Z" />
+    <!-- Popuk uchi -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M78,66a3,3 0 1,0 6,0a3,3 0 1,0 -6,0Z" />
+</vector>
