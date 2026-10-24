@@ -156,7 +156,7 @@ public class MainActivity extends Activity {
                         ViewGroup.LayoutParams.MATCH_PARENT));
                 fullscreenContainer.setVisibility(View.VISIBLE);
                 webView.setVisibility(View.GONE);
-                setImmersive(true);
+                setFullscreenMode(true);
             }
 
             @Override
@@ -172,7 +172,7 @@ public class MainActivity extends Activity {
                     customViewCallback = null;
                 }
                 webView.setVisibility(View.VISIBLE);
-                setImmersive(false);
+                setFullscreenMode(false);
             }
         });
 
@@ -203,7 +203,7 @@ public class MainActivity extends Activity {
     }
 
     @SuppressWarnings("deprecation")
-    private void setImmersive(boolean on) {
+    private void setFullscreenMode(boolean on) {
         View decor = getWindow().getDecorView();
         if (on) {
             decor.setSystemUiVisibility(
